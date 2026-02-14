@@ -24,4 +24,14 @@
  */
 export function getTicketPrice(age, isWeekend) {
   // Your code here
-}
+  
+  if(age>0 && age<12){
+    console.log("Pricing for children: $8");
+  }else if(age>13 && age<17){
+    console.log("Pricing for teens: $12");
+  }else if(age>18 && age<59){
+    console.log("pricing for adults: $15");
+
+  }else {
+    console.log("Pricing for seniors: $10");
+}}

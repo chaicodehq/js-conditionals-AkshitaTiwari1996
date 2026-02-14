@@ -34,4 +34,5 @@
  */
 export function calculateParkingFee(hours, vehicleType) {
   // Your code here
+  const daily
 }
